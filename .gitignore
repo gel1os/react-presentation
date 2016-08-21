@@ -1,8 +1,6 @@
 node_modules
 .idea
-css
 my-components
 config.json
 package.json
 presentation.js
-js
