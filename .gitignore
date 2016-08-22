@@ -1,2 +1,7 @@
 node_modules
 .idea
+my-components
+config.json
+package.json
+presentation.js
+css
