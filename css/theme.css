@@ -1,0 +1,85 @@
+#app .picture h2 {
+  color:#FFF;
+}
+
+#app .cover-me h2 {
+  margin:30px 0 0;
+  color:#FFF;
+  text-align:center;
+  font-size:70px;
+}
+
+#app .cover-me p {
+  margin:10px 0 0;
+  text-align:center;
+  color:#FFF;
+  font-style:italic;
+  font-size:20px;
+}
+#app .cover-me p a {
+  color:#FFF;
+}
+
+#app .see-more h2 {
+  font-size:100px
+}
+
+#app .see-more img {
+  width:0.72em;
+  height:0.72em;
+}
+
+.slide ol {
+  padding-left: 50px;
+}
+
+.combined-DOM:before {
+  content: '';
+  position: absolute;
+  outline: 2px solid #c01;
+  width: 160px;
+  height: 289px;
+  margin-left: -5px;
+  margin-top: 10px;
+}
+
+#app .shrink {
+  font-size: 120px;
+}
+
+#app .key-prop-warning {
+  padding: 40px;
+  background: #f5f2f0;
+  color: #c02;
+  font-size: 40px;
+}
+
+#app .fruit-example {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#app .reverse-button {
+  background: #f5f2f0;
+  display: inline-block;
+  padding: 10px 70px;
+  border-radius: 25px;
+}
+
+#app .fruit-example ol {
+  padding-left: 0;
+}
+
+#app .fruit-example-code {
+  font-size: 22px;
+}
+
+#app .please-guy:before {
+  content: 'What should I do?!';
+  position: absolute;
+  top: 310px;
+  right: 300px;
+  border: 2px solid black;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
