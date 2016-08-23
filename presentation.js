@@ -18,7 +18,8 @@ import "style!css!prismjs/themes/prism.css"; // Theme
 import "css/theme.css";
 
 const TOPIC = 'A guide to performance in React';
-const SPEAKER = (<span>Brought to you by <a href="http://github.com/gel1os">Kirill Trukhanovich</a></span>);
+const SPEAKER = (<a href="http://github.com/gel1os">Kirill Trukhanovich</a>);
+const COMPANY = 'DataArt';
 
 export default () =>
   <DocumentTitle title={TOPIC}>
@@ -28,9 +29,12 @@ export default () =>
         <p>{SPEAKER}</p>
       </header>
       <Slide className="cover-me">
-        <h2>{TOPIC}</h2>
-        <p>{SPEAKER}</p>
-        <img src="https://shwr.me/pictures/cover.jpg" alt="" className="cover" />
+          <h2 className="topic">
+            {TOPIC}
+          </h2>
+          <div className="speaker">
+            <p>{SPEAKER}</p>
+          </div>
       </Slide>
       <Slide>
         <h2>Agenda</h2>
@@ -577,9 +581,9 @@ export default () =>
                 div
                 <div style={{ marginLeft: '20px'}}>
                   <div>button</div>
-                  <div>Item <span style={{color: '#c00'}}>?</span></div>
-                  <div>Item <span style={{color: '#c00'}}>?</span></div>
-                  <div>Item <span style={{color: '#c00'}}>?</span></div>
+                  <div>Item <span style={{color: '#B93734'}}>?</span></div>
+                  <div>Item <span style={{color: '#B93734'}}>?</span></div>
+                  <div>Item <span style={{color: '#B93734'}}>?</span></div>
                 </div>
               </div>
             </td>
@@ -1079,103 +1083,268 @@ export default () =>
       </Slide>
 
       <Slide>
-        <h2>Two columns if you like</h2>
-        <p className="double">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
+        <h2>Making React to work faster.</h2>
+        <div>3. Use setState() lower in a tree.</div>
       </Slide>
+
       <Slide>
-        <h2>All kind of lists</h2>
+        <h2>Making React to work faster.</h2>
+        <div>3. Use setState() lower in a tree.</div>
+          <div style={{width: '50%', margin: '0 auto'}}>
+            <div>List</div>
+            <div style={{ outline: '1px solid black',
+                      height: '250px',
+                      paddingLeft: '10px',
+                      marginLeft: '20px',
+                      marginRight: '15px'
+              }}>
+              div
+              <div style={{ marginLeft: '20px'}}>
+                <div>button</div>
+                {[1,2,3].map(number =>
+                  <div key={number} >
+                    Item
+                    <span> ---> div</span>
+                  </div>)
+                }
+              </div>
+            </div>
+          </div>
+      </Slide>
+
+      <Slide>
+        <h2>Making React to work faster.</h2>
+        <div>3. Use setState() lower in a tree.</div>
+        <div style={{width: '50%', margin: '0 auto'}}>
+          <div>List</div>
+          <div style={{ outline: '1px solid black',
+                      height: '250px',
+                      paddingLeft: '10px',
+                      marginLeft: '20px',
+                      marginRight: '15px'
+              }}>
+            div
+            <div style={{ marginLeft: '20px'}}>
+              <div>button</div>
+              <div>
+                Item
+                <span> ---> div</span>
+              </div>
+              <div style={{color: '#B93734'}}>
+                Item
+                <span> ---> div</span>
+              </div>
+              <div>
+                Item
+                <span> ---> div</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </Slide>
+
+      <Slide>
+        <h2>Making React to work faster.</h2>
+        <div>3. Use setState() lower in a tree.</div>
+        <div style={{width: '50%', margin: '0 auto'}}>
+          <div style={{color: '#4b86c2'}}>List</div>
+          <div style={{ outline: '1px solid black',
+                      height: '250px',
+                      paddingLeft: '10px',
+                      marginLeft: '20px',
+                      marginRight: '15px'
+              }}>
+            div
+            <div style={{ marginLeft: '20px'}}>
+              <div>button</div>
+              {[1,2,3].map(number =>
+                <div key={number} >
+                  Item
+                  <span> ---> div</span>
+                </div>)
+              }
+            </div>
+          </div>
+          <div style={{position: 'absolute', top: '240px', left: '360px'}}>
+            <i>this.setState();</i>
+          </div>
+        </div>
+      </Slide>
+
+      <Slide>
+        <h2>Making React to work faster.</h2>
+        <div>3. Use setState() lower in a tree.</div>
+        <div style={{width: '50%', margin: '0 auto'}}>
+          <div>List</div>
+          <div style={{ outline: '1px solid black',
+                      height: '250px',
+                      paddingLeft: '10px',
+                      marginLeft: '20px',
+                      marginRight: '15px',
+                      color: '#4b86c2'
+              }}>
+            div
+            <div style={{ marginLeft: '20px'}}>
+              <div>button</div>
+              {[1,2,3].map(number =>
+                <div key={number} >
+                  Item
+                  <span> ---> div</span>
+                </div>)
+              }
+            </div>
+          </div>
+        </div>
+      </Slide>
+
+      <Slide>
+        <h2>Making React to work faster.</h2>
+        <div>3. Use setState() lower in a tree.</div>
+        <div style={{width: '50%', margin: '0 auto'}}>
+          <div>List</div>
+          <div style={{ outline: '1px solid black',
+                      height: '250px',
+                      paddingLeft: '10px',
+                      marginLeft: '20px',
+                      marginRight: '15px'
+              }}>
+            div
+            <div style={{ marginLeft: '20px'}}>
+              <div>button</div>
+              <div>
+                Item
+                <span> ---> div</span>
+              </div>
+              <div style={{color: '#B93734'}}>
+                Item
+                <span> ---> div</span>
+              </div>
+              <div>
+                Item
+                <span> ---> div</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </Slide>
+
+      <Slide>
+        <h2>Making React to work faster.</h2>
+        <div>3. Use setState() lower in a tree.</div>
+        <div style={{width: '50%', margin: '0 auto'}}>
+          <div>List</div>
+          <div style={{ outline: '1px solid black',
+                      height: '250px',
+                      paddingLeft: '10px',
+                      marginLeft: '20px',
+                      marginRight: '15px'
+              }}>
+            div
+            <div style={{ marginLeft: '20px'}}>
+              <div>button</div>
+              <div>
+                Item
+                <span> ---> div</span>
+              </div>
+              <div style={{color: '#4b86c2'}}>
+                Item
+                <span> ---> div</span>
+              </div>
+              <div>
+                Item
+                <span> ---> div</span>
+              </div>
+            </div>
+          </div>
+          <div style={{position: 'absolute', top: '440px', left: '510px'}}>
+            <i>this.setState();</i>
+          </div>
+        </div>
+      </Slide>
+
+      <Slide>
+        <h2>Making React to work faster.</h2>
+        <div>3. Use setState() lower in a tree.</div>
+        <div style={{width: '50%', margin: '0 auto 10px auto'}}>
+          <div>List</div>
+          <div style={{ outline: '1px solid black',
+                      height: '250px',
+                      paddingLeft: '10px',
+                      marginLeft: '20px',
+                      marginRight: '15px'
+              }}>
+            div
+            <div style={{ marginLeft: '20px'}}>
+              <div>button</div>
+              <div>
+                Item
+                <span> ---> div</span>
+              </div>
+              <div style={{color: '#4b86c2'}}>
+                Item
+                <span> ---> div</span>
+              </div>
+              <div>
+                Item
+                <span> ---> div</span>
+              </div>
+            </div>
+          </div>
+          <div style={{position: 'absolute', top: '440px', left: '510px'}}>
+            <i>this.setState();</i>
+          </div>
+        </div>
+        <div>The same valid for Redux's <b>connect()</b> function.</div>
+      </Slide>
+
+      <Slide>
+        <h2>Making React to work faster.</h2>
+        <div>To sum up:</div>
         <ol>
-          <li>Simple lists are marked with bullets</li>
-          <li>Ordered lists begin with a number</li>
-          <li>You can even nest lists one inside another
-            <ul>
-              <li>Or mix their types</li>
-              <li>But do not go too far</li>
-              <li>Otherwise audience will be bored</li>
-            </ul>
-          </li>
-          <li>Look, seven rows exactly!</li>
+          <li>key;</li>
+          <li>shouldComponentUpdate() and immutability;</li>
+          <li>setState() or connect().</li>
         </ol>
       </Slide>
+
       <Slide>
-        <h2>Serious citations</h2>
-        <figure>
-          <blockquote>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
-          </blockquote>
-          <figcaption>Marcus Tullius Cicero</figcaption>
-        </figure>
+        <h2>Making React to work faster.</h2>
+        <div>To sum up:</div>
+        <ol>
+          <li>key - help React to match previous and new instances.</li>
+          <li>shouldComponentUpdate() and immutability</li>
+          <li>setState() or connect().</li>
+        </ol>
       </Slide>
+
       <Slide>
-        <h2>Support for different languages</h2>
-        <Code code={`{ "foo": "bar" }`} lang="json" />
-        <Code code={`<JSX isCool={ true } />`} lang="jsx" />
+        <h2>Making React to work faster.</h2>
+        <div>To sum up:</div>
+        <ol>
+          <li>key - help React to match previous and new instances.</li>
+          <li>shouldComponentUpdate() and immutability - prevent component from calling unnecessary renders.</li>
+          <li>setState() or connect().</li>
+        </ol>
       </Slide>
-      <Slide className="slide">
-        <h2>Code samples</h2>
-        <pre>
-          <code>&lt;!DOCTYPE html&gt;</code>
-          <code className="mark">&lt;html lang="en"&gt;</code>
-          <code><mark>&lt;head&gt;</mark> <span className="comment">&lt;!--Comment--&gt;</span></code>
-          <code>    &lt;title&gt;Shower&lt;/title&gt;</code>
-          <code>    &lt;meta charset="<mark className="important">UTF-8</mark>"&gt;</code>
-          <code>    &lt;link rel="stylesheet" href="screen.css"&gt;</code>
-          <code><mark>&lt;/head&gt;</mark></code>
-        </pre>
-      </Slide>
+
       <Slide>
-        <h2>Even tables</h2>
-        <table>
-          <tbody>
-            <tr>
-              <th scope="col">Locavore</th>
-              <th>Umami</th>
-              <th>Helvetica</th>
-              <th>Vegan</th>
-            </tr>
-            <tr>
-              <th scope="row">Fingerstache</th>
-              <td>Kale</td>
-              <td>Chips</td>
-              <td>Keytar</td>
-            </tr>
-            <tr>
-              <th scope="row">Sriracha</th>
-              <td>Gluten-free</td>
-              <td>Ennui</td>
-              <td>Keffiyeh</td>
-            </tr>
-            <tr>
-              <th scope="row">Thundercats</th>
-              <td>Jean</td>
-              <td>Shorts</td>
-              <td>Biodiesel</td>
-            </tr>
-            <tr>
-              <th scope="row">Terry</th>
-              <td>Richardson</td>
-              <td>Swag</td>
-              <td>Blog</td>
-            </tr>
-          </tbody>
-        </table>
-        <p>It’s good to have information organized.</p>
+        <h2>Making React to work faster.</h2>
+        <div>To sum up:</div>
+        <ol>
+          <li>key - help React to match previous and new instances.</li>
+          <li>shouldComponentUpdate() and immutability - prevent component from calling unnecessary renders.</li>
+          <li>setState() or connect() - when used lower in the tree, only changed element will be rerendered.</li>
+        </ol>
       </Slide>
-      <Slide className="picture">
-        <h2>Pictures</h2>
-        <img src="https://shwr.me/pictures/picture.jpg" alt="" className="cover" />
-      </Slide>
+
       <Slide>
         <h2 className="shout shrink">It's all just JavaScript!</h2>
       </Slide>
-      <Slide className="grid">
-        <h2>All nicely aligned to grid</h2>
-      </Slide>
-      <Slide className="see-more">
-        <h2 className="shout">
-          <img src="https://shwr.me/pictures/logo.svg" alt="Shower logo" />&nbsp;
-          <a href="https://github.com/shower/shower">See more on GitHub</a>
+
+      <Slide>
+        <h2 style={{ fontSize: '120px', position: 'absolute', top: '40%', left: 0, width: '100%', textAlign: 'center' }}>
+          Dziękuję!
         </h2>
       </Slide>
-      </Deck>
+    </Deck>
   </DocumentTitle>
