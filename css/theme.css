@@ -12,6 +12,10 @@
   height:0.72em;
 }
 
+#app .slide pre code {
+  width: 100%;
+}
+
 .slide ol {
   padding-left: 50px;
 }
