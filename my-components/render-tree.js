@@ -2,7 +2,7 @@ import React from 'react';
 
 const style = {
   transform: 'scale(0.65)', 
-  marginLeft: '-360px', 
+  marginLeft: '-410px',
   marginTop: '-40px'
 };
 

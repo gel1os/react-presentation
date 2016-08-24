@@ -6,22 +6,36 @@ const styles = {
     position: 'absolute',
     top: '80px',
     left: '25px',
+  },
+  center: {
+    width: '350px'
   }
 }
 
-const DaLogo = ({type}) =>
-  <img
-    style={styles[type]}
-    src="https://dl.dropboxusercontent.com/u/7884169/react-presentation/tangram%2Blogo-V.png"
-    alt="DA Logo"
-  />;
+const logoColors = {
+  'various': "https://dl.dropboxusercontent.com/u/7884169/react-presentation/tangram%2Blogo-V.png",
+  'white': 'https://dl.dropboxusercontent.com/u/7884169/react-presentation/da-tangram%2Blogo-white.png'
+}
+
+const DaLogo = ({position, color}) => {
+
+  return (
+    <img
+      style={styles[position]}
+      src={logoColors[color]}
+      alt="DA Logo"
+    />
+  )
+}
 
 DaLogo.defaultProps = {
-  type: 'corner'
+  position: 'corner',
+  color: 'various'
 };
 
 DaLogo.propTypes = {
-  type: PropTypes.oneOf(['corner'])
+  position: PropTypes.oneOf(['corner', 'center']),
+  color: PropTypes.oneOf(['various', 'white'])
 };
 
 export default DaLogo;

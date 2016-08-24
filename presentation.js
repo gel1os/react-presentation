@@ -10,6 +10,8 @@ import ForeverAlone from 'my-components/forever-alone';
 import RenderTree from 'my-components/render-tree';
 import PleaseGuy from 'my-components/please-guy';
 import DaLogo from 'my-components/da-logo';
+import Author from 'my-components/author';
+import LinClark from 'my-components/lin-clark';
 
 // Prism JS configuration
 import 'prismjs/components/prism-json';
@@ -19,23 +21,24 @@ import "style!css!prismjs/themes/prism.css"; // Theme
 import "css/theme.css";
 
 const TOPIC = 'A guide to performance in React';
-const SPEAKER = (<a href="http://github.com/gel1os">Kirill Trukhanovich</a>);
-const COMPANY = 'DataArt';
 
 export default () =>
   <DocumentTitle title={TOPIC}>
     <Deck>
       <header className="caption">
         <h1>{TOPIC}</h1>
-        <p>{SPEAKER}</p>
       </header>
-      <Slide className="cover-me">
-          <h2 className="topic">
+      
+      <Slide className="with-logo cover">
+        <DaLogo position="center"/>
+      </Slide>
+      
+      <Slide className="with-logo">
+        <DaLogo />
+        <h2 className="topic">
             {TOPIC}
-          </h2>
-          <div className="speaker">
-            <p>{SPEAKER}</p>
-          </div>
+        </h2>
+        <Author />
       </Slide>
       <Slide className="with-logo">
         <DaLogo />
@@ -1240,7 +1243,7 @@ export default () =>
               }
             </div>
           </div>
-          <div style={{position: 'absolute', top: '240px', left: '360px'}}>
+          <div style={{position: 'absolute', top: '240px', left: '400px'}}>
             <i>this.setState();</i>
           </div>
         </div>
@@ -1334,7 +1337,7 @@ export default () =>
               </div>
             </div>
           </div>
-          <div style={{position: 'absolute', top: '440px', left: '510px'}}>
+          <div style={{position: 'absolute', top: '440px', left: '550px'}}>
             <i>this.setState();</i>
           </div>
         </div>
@@ -1369,11 +1372,11 @@ export default () =>
               </div>
             </div>
           </div>
-          <div style={{position: 'absolute', top: '440px', left: '510px'}}>
+          <div style={{position: 'absolute', top: '440px', left: '550px'}}>
             <i>this.setState();</i>
           </div>
         </div>
-        <div>The same valid for Redux's <b>connect()</b> function.</div>
+        <div>The same is valid for Redux's <b>connect()</b> function.</div>
       </Slide>
 
       <Slide className="with-logo">
@@ -1418,6 +1421,22 @@ export default () =>
           <li>shouldComponentUpdate() and immutability - prevent component from calling unnecessary renders.</li>
           <li>setState() or connect() - when used lower in the tree, only changed element will be rerendered.</li>
         </ol>
+      </Slide>
+
+      <Slide className="with-logo dark-blue">
+        <h2>Based on.</h2>
+        <DaLogo color='white'/>
+        <div>
+          <a href="https://www.youtube.com/watch?v=-t8eOoRsJ7M" target="_linsTalk">
+            Lin's talk on React Europe 2016
+          </a>
+        </div>
+        <div>
+          <a href="https://code-cartoons.com/" target="_codeCartoons">
+            Code Cartoons (just awesome!)
+          </a>
+        </div>
+        <LinClark />
       </Slide>
 
       <Slide className="with-logo">

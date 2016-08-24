@@ -1,6 +1,7 @@
 
 #app .topic {
-
+  margin-top: 30px;
+  font-size: 70px;
 }
 
 #app .see-more h2 {
@@ -13,7 +14,29 @@
 }
 
 #app .slide.with-logo {
-  padding: 106px 150px 0;
+  padding: 106px 90px 0 150px;
+}
+
+#app .slide.dark-blue {
+  background: #285AA7;
+  color: white;
+}
+
+#app .slide.dark-blue a {
+  color: white;
+  background: none;
+  font-size: 40px;
+}
+
+#app .slide.dark-blue  h2{
+  color: white;
+}
+
+#app .slide.with-logo.cover {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #app .slide pre code {
