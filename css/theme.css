@@ -1,23 +1,7 @@
-#app .picture h2 {
-  color:#FFF;
-}
 
-#app .cover-me h2 {
-  margin:30px 0 0;
-  color:#FFF;
-  text-align:center;
-  font-size:70px;
-}
-
-#app .cover-me p {
-  margin:10px 0 0;
-  text-align:center;
-  color:#FFF;
-  font-style:italic;
-  font-size:20px;
-}
-#app .cover-me p a {
-  color:#FFF;
+#app .topic {
+  margin-top: 30px;
+  font-size: 70px;
 }
 
 #app .see-more h2 {
@@ -27,6 +11,36 @@
 #app .see-more img {
   width:0.72em;
   height:0.72em;
+}
+
+#app .slide.with-logo {
+  padding: 106px 90px 0 150px;
+}
+
+#app .slide.dark-blue {
+  background: #285AA7;
+  color: white;
+}
+
+#app .slide.dark-blue a {
+  color: white;
+  background: none;
+  font-size: 40px;
+}
+
+#app .slide.dark-blue  h2{
+  color: white;
+}
+
+#app .slide.with-logo.cover {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#app .slide pre code {
+  width: 100%;
 }
 
 .slide ol {
