@@ -18,7 +18,7 @@ const LinClark = () =>
     <div style={imageStyle}></div>
     <div style={{display: 'inline-block'}}>
       <div>
-        <a target="_github" href="http://github.com/gel1os" style={{color: 'inherit', background: 'none'}}>
+        <a target="_github" href="http://github.com/linclark" style={{color: 'inherit', background: 'none'}}>
           Lin Clark
         </a>
       </div>
