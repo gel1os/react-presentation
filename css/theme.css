@@ -12,6 +12,10 @@
   height:0.72em;
 }
 
+#app .slide.with-logo {
+  padding: 106px 150px 0;
+}
+
 #app .slide pre code {
   width: 100%;
 }

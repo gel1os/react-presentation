@@ -9,6 +9,7 @@ import FuckYeah from 'my-components/fuck-yeah';
 import ForeverAlone from 'my-components/forever-alone';
 import RenderTree from 'my-components/render-tree';
 import PleaseGuy from 'my-components/please-guy';
+import DaLogo from 'my-components/da-logo';
 
 // Prism JS configuration
 import 'prismjs/components/prism-json';
@@ -36,7 +37,8 @@ export default () =>
             <p>{SPEAKER}</p>
           </div>
       </Slide>
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo />
         <h2>Agenda</h2>
         <ol>
           <li>What is React and why would you consider using it?</li>
@@ -48,24 +50,28 @@ export default () =>
 
       { /* What's React?  */ }
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo />
         <h2>What is React?</h2>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>What is React?</h2>
         <ReactLogo />
         <div>It's a JavaScript Library for creating UI.</div>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>What is React?</h2>
         <ReactLogo />
         <div>It's a JavaScript Library for creating UI.</div>
         <div>Developed by Facebook.</div>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>What is React?</h2>
         <ReactLogo />
         <div>It's a JavaScript Library for creating UI.</div>
@@ -75,7 +81,8 @@ export default () =>
         </div>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>What is React?</h2>
         <ReactLogo />
         <div>It's a JavaScript Library for creating UI.</div>
@@ -86,7 +93,8 @@ export default () =>
         <div style={{whiteSpace: 'nowrap'}}>You cannot build a fully functional dynamic application with React alone.</div>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>What is React?</h2>
         <ReactLogo />
         <div>It's a JavaScript Library for creating UI.</div>
@@ -105,16 +113,19 @@ export default () =>
 
       { /* Why would I want to use it? */ }
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Why would I want to use it?</h2>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Why would I want to use it?</h2>
         <div>Components... Components everywhere!</div>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Why would I want to use it?</h2>
         <div>Components... Components everywhere!</div>
         <div style={{whiteSpace: 'nowrap'}}>
@@ -122,7 +133,8 @@ export default () =>
         </div>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Why would I want to use it?</h2>
         <div>Components... Components everywhere!</div>
         <div style={{whiteSpace: 'nowrap'}}>
@@ -131,7 +143,8 @@ export default () =>
         <div>Splitting your app on encapsulated components gives you:</div>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Why would I want to use it?</h2>
         <div>Components... Components everywhere!</div>
         <div style={{whiteSpace: 'nowrap'}}>
@@ -143,7 +156,8 @@ export default () =>
         </ol>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Why would I want to use it?</h2>
         <div>Components... Components everywhere!</div>
         <div style={{whiteSpace: 'nowrap'}}>
@@ -156,7 +170,8 @@ export default () =>
         </ol>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Why would I want to use it?</h2>
         <div>Components... Components everywhere!</div>
         <div style={{whiteSpace: 'nowrap'}}>
@@ -170,7 +185,8 @@ export default () =>
         </ol>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Why would I want to use it?</h2>
         <div>Components... Components everywhere!</div>
         <div style={{whiteSpace: 'nowrap'}}>
@@ -185,7 +201,8 @@ export default () =>
         </ol>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Why would I want to use it?</h2>
         <div>Components... Components everywhere!</div>
         <div style={{whiteSpace: 'nowrap'}}>
@@ -203,16 +220,19 @@ export default () =>
 
       {/* What is React Component? */}
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>What is a React Component?</h2>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>What is a React Component?</h2>
         <div>That's an instance, that represents a part of User Interface.</div>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>What is a React Component?</h2>
         <div>That's an instance, that represents a part of User Interface.</div>
         <div>3 key features of component are:</div>
@@ -223,7 +243,8 @@ export default () =>
         </ol>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>What is a React Component?</h2>
         <div>That's an instance, that represents a part of User Interface.</div>
         <div>3 key features of component are:</div>
@@ -234,7 +255,8 @@ export default () =>
         </ol>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>What is a React Component?</h2>
         <div>That's an instance, that represents a part of User Interface.</div>
         <div>3 key features of component are:</div>
@@ -245,7 +267,8 @@ export default () =>
         </ol>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>What is a React Component?</h2>
         <div>That's an instance, that represents a part of User Interface.</div>
         <div>3 key features of component are:</div>
@@ -256,7 +279,8 @@ export default () =>
         </ol>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Example! Finally...</h2>
         <span>Counter</span>{' '}
         <a href="http://jsbin.com/borufu/12/edit?html,output" target="_jsbin">JS Bin</a>
@@ -264,52 +288,61 @@ export default () =>
 
       { /* How does browser build the webpage?  */ }
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>How does browser build the webpage?</h2>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>How does browser build the webpage?</h2>
         <div>Main thread - in charge of JavaScript, DOM and layout.</div>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>How does browser build the webpage?</h2>
         <div>Main thread - in charge of JavaScript, DOM and layout.</div>
         <FuckYeah />
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>How does browser build the webpage?</h2>
         <div>Main thread - in charge of JavaScript, DOM and layout.</div>
         <FuckYeah />
         <ForeverAlone />
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>How does browser build the webpage?</h2>
         <RenderTree />
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>How does browser build the webpage?</h2>
         <div>Reflow - process of painting the Render Tree.</div>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>How does browser build the webpage?</h2>
         <div>Reflow - process of painting the Render Tree.</div>
         <div>Expensive one :(</div>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>How does browser build the webpage?</h2>
         <div>Reflow - process of painting the Render Tree.</div>
         <div>Expensive one :(</div>
         <div>Insert or remove DOM elements, calculate size, modify content, animation...</div>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>How does browser build the webpage?</h2>
         <div>Reflow - process of painting the Render Tree.</div>
         <div>Expensive one :(</div>
@@ -317,7 +350,8 @@ export default () =>
         <div>The good practice is to reduce the amount of reflows.</div>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>How does browser build the webpage?</h2>
         <div>Reflow - process of painting the Render Tree.</div>
         <div>Expensive one :(</div>
@@ -328,17 +362,20 @@ export default () =>
 
       { /* Using React's virtual DOM */ }
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Using React's virtual DOM.</h2>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Using React's virtual DOM.</h2>
         <Code code={`ReactDOM.render(<List />,
   document.getElementById('container'))`} />
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Using React's virtual DOM.</h2>
         <Code code={`ReactDOM.render(<List />,
   document.getElementById('container'))`} />
@@ -364,7 +401,8 @@ export default () =>
         </table>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Using React's virtual DOM.</h2>
         <table>
           <tbody>
@@ -386,7 +424,8 @@ export default () =>
         </table>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Using React's virtual DOM.</h2>
         <table>
           <tbody>
@@ -408,7 +447,8 @@ export default () =>
         </table>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Using React's virtual DOM.</h2>
         <table>
           <tbody>
@@ -435,7 +475,8 @@ export default () =>
         </table>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Using React's virtual DOM.</h2>
         <table>
           <tbody>
@@ -470,7 +511,8 @@ export default () =>
         </table>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Using React's virtual DOM.</h2>
         <table>
           <tbody>
@@ -508,7 +550,8 @@ export default () =>
         </table>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Using React's virtual DOM.</h2>
         <table>
           <tbody>
@@ -552,7 +595,8 @@ export default () =>
         </table>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Using React's virtual DOM.</h2>
         <table>
           <tbody>
@@ -597,7 +641,8 @@ export default () =>
         </table>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Using React's virtual DOM.</h2>
         <table>
           <tbody>
@@ -643,7 +688,8 @@ export default () =>
         </table>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Using React's virtual DOM.</h2>
         <table>
           <tbody>
@@ -692,7 +738,8 @@ export default () =>
         </table>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Using React's virtual DOM.</h2>
         <table>
           <tbody>
@@ -744,7 +791,8 @@ export default () =>
         </table>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Using React's virtual DOM.</h2>
         <table>
           <tbody>
@@ -801,13 +849,15 @@ export default () =>
         </table>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Using React's virtual DOM.</h2>
         Virtual DOM is a <i>technique and set of algorithms</i> that allow us to improve front end performance
         by avoiding direct work with DOM.
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Using React's virtual DOM.</h2>
         Virtual DOM is a <i>technique and set of algorithms</i> that allow us to improve front end performance
         by avoiding direct work with DOM.
@@ -819,16 +869,19 @@ export default () =>
 
       { /* Tips to make React faster */ }
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Making React to work faster.</h2>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Making React to work faster.</h2>
         <div>1. Usage of "key" property.</div>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Making React to work faster.</h2>
         <div>1. Usage of "key" property.</div>
         <pre className="key-prop-warning">
@@ -836,7 +889,8 @@ export default () =>
         </pre>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Making React to work faster.</h2>
         <div>1. Usage of "key" property.</div>
         <table>
@@ -866,7 +920,8 @@ export default () =>
         </table>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Making React to work faster.</h2>
         <div>1. Usage of "key" property.</div>
         <table>
@@ -896,7 +951,8 @@ export default () =>
         </table>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Making React to work faster.</h2>
         <div>1. Usage of "key" property.</div>
         <div className="fruit-example">
@@ -909,7 +965,8 @@ export default () =>
         </div>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Making React to work faster.</h2>
         <div>1. Usage of "key" property.</div>
         <table>
@@ -940,7 +997,8 @@ export default () =>
         </table>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Making React to work faster.</h2>
         <div>1. Usage of "key" property.</div>
         <table>
@@ -971,7 +1029,8 @@ export default () =>
         </table>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Making React to work faster.</h2>
         <div>1. Usage of "key" property.</div>
         <div>
@@ -980,12 +1039,14 @@ export default () =>
         </div>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Making React to work faster.</h2>
         <div>2. Usage of shouldComponentUpdate().</div>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Making React to work faster.</h2>
         <div>2. Usage of shouldComponentUpdate().</div>
         <Code code={`shouldComponentUpdate: (nextProps, nextState) => {
@@ -996,7 +1057,8 @@ export default () =>
 }`}/>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Making React to work faster.</h2>
         <div>2. Usage of shouldComponentUpdate().</div>
         <Code code={`(newItem) => {
@@ -1008,14 +1070,16 @@ export default () =>
 };`}/>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Making React to work faster.</h2>
         <div>2. Usage of shouldComponentUpdate().</div>
         <div>Result will always be <b>false</b>.</div>
         <div>You will never see new items...</div>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Making React to work faster.</h2>
         <div>2. Usage of shouldComponentUpdate().</div>
         <div>Result will always be <b>false</b>.</div>
@@ -1026,7 +1090,8 @@ export default () =>
         <div>Because you are comparing the same array to itself.</div>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Making React to work faster.</h2>
         <div>2. Usage of shouldComponentUpdate().</div>
         <Code code={`(newItem) => {
@@ -1037,14 +1102,16 @@ export default () =>
 };`}/>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Making React to work faster.</h2>
         <div>2. Usage of shouldComponentUpdate().</div>
         <div>Result will always be <b>true</b>.</div>
         <div>Method will be executed anyway...</div>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Making React to work faster.</h2>
         <div>2. Usage of shouldComponentUpdate().</div>
         <div>Result will always be <b>true</b>.</div>
@@ -1052,7 +1119,8 @@ export default () =>
         <div>What about deep checking?</div>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Making React to work faster.</h2>
         <div>2. Usage of shouldComponentUpdate().</div>
         <div>Result will always be <b>true</b>.</div>
@@ -1061,20 +1129,23 @@ export default () =>
         <div>Probably... But execution time may be longer, than render() itself and there won't be any boost in performance...</div>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Making React to work faster.</h2>
         <div>2. Usage of shouldComponentUpdate().</div>
         <PleaseGuy />
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Making React to work faster.</h2>
         <div>2. Usage of shouldComponentUpdate().</div>
         <PleaseGuy />
         <div style={{marginTop: '175px'}}>Use <b>immutable</b> data!</div>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Making React to work faster.</h2>
         <div>2. Usage of shouldComponentUpdate().</div>
         <PleaseGuy />
@@ -1082,12 +1153,14 @@ export default () =>
         <div>It'll help you to perform quick equality checks and boost performance.</div>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Making React to work faster.</h2>
         <div>3. Use setState() lower in a tree.</div>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Making React to work faster.</h2>
         <div>3. Use setState() lower in a tree.</div>
           <div style={{width: '50%', margin: '0 auto'}}>
@@ -1112,7 +1185,8 @@ export default () =>
           </div>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Making React to work faster.</h2>
         <div>3. Use setState() lower in a tree.</div>
         <div style={{width: '50%', margin: '0 auto'}}>
@@ -1143,7 +1217,8 @@ export default () =>
         </div>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Making React to work faster.</h2>
         <div>3. Use setState() lower in a tree.</div>
         <div style={{width: '50%', margin: '0 auto'}}>
@@ -1171,7 +1246,8 @@ export default () =>
         </div>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Making React to work faster.</h2>
         <div>3. Use setState() lower in a tree.</div>
         <div style={{width: '50%', margin: '0 auto'}}>
@@ -1197,7 +1273,8 @@ export default () =>
         </div>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Making React to work faster.</h2>
         <div>3. Use setState() lower in a tree.</div>
         <div style={{width: '50%', margin: '0 auto'}}>
@@ -1228,7 +1305,8 @@ export default () =>
         </div>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Making React to work faster.</h2>
         <div>3. Use setState() lower in a tree.</div>
         <div style={{width: '50%', margin: '0 auto'}}>
@@ -1262,7 +1340,8 @@ export default () =>
         </div>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Making React to work faster.</h2>
         <div>3. Use setState() lower in a tree.</div>
         <div style={{width: '50%', margin: '0 auto 10px auto'}}>
@@ -1297,7 +1376,8 @@ export default () =>
         <div>The same valid for Redux's <b>connect()</b> function.</div>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Making React to work faster.</h2>
         <div>To sum up:</div>
         <ol>
@@ -1307,7 +1387,8 @@ export default () =>
         </ol>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Making React to work faster.</h2>
         <div>To sum up:</div>
         <ol>
@@ -1317,7 +1398,8 @@ export default () =>
         </ol>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Making React to work faster.</h2>
         <div>To sum up:</div>
         <ol>
@@ -1327,7 +1409,8 @@ export default () =>
         </ol>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2>Making React to work faster.</h2>
         <div>To sum up:</div>
         <ol>
@@ -1337,11 +1420,13 @@ export default () =>
         </ol>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2 className="shout shrink">It's all just JavaScript!</h2>
       </Slide>
 
-      <Slide>
+      <Slide className="with-logo">
+        <DaLogo/>
         <h2 style={{ fontSize: '120px', position: 'absolute', top: '40%', left: 0, width: '100%', textAlign: 'center' }}>
           Dziękuję!
         </h2>
