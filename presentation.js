@@ -463,11 +463,11 @@ export default () =>
           <tr>
             <td>
               <div>List</div>
-              <div>Button</div>
+              <div>div</div>
+              <div>button</div>
               <div>Item</div>
               <div>Item</div>
               <div>Item</div>
-              <div>Div</div>
             </td>
             <td>
               <div>List</div>
@@ -491,11 +491,11 @@ export default () =>
           <tr>
             <td>
               <div>List</div>
-              <div>Button</div>
+              <div>div</div>
+              <div>button</div>
               <div>Item</div>
               <div>Item</div>
               <div>Item</div>
-              <div>Div</div>
             </td>
             <td>
               <div>List</div>
@@ -527,11 +527,11 @@ export default () =>
           <tr>
             <td>
               <div>List</div>
-              <div>Button</div>
+              <div>div</div>
+              <div>button</div>
               <div>Item</div>
               <div>Item</div>
               <div>Item</div>
-              <div>Div</div>
             </td>
             <td>
               <div>List</div>
@@ -566,11 +566,11 @@ export default () =>
           <tr>
             <td>
               <div>List</div>
-              <div>Button</div>
+              <div>div</div>
+              <div>button</div>
               <div>Item</div>
               <div>Item</div>
               <div>Item</div>
-              <div>Div</div>
             </td>
             <td>
               <div>List</div>
@@ -611,11 +611,11 @@ export default () =>
           <tr>
             <td>
               <div>List</div>
-              <div>Button</div>
+              <div>div</div>
+              <div>button</div>
               <div>Item</div>
               <div>Item</div>
               <div>Item</div>
-              <div>Div</div>
             </td>
             <td>
               <div>List</div>
@@ -657,12 +657,12 @@ export default () =>
           <tr>
             <td>
               <div>List</div>
-              <div>Button</div>
+              <div>div</div>
+              <div>button</div>
               <div>Item</div>
               <div>Item</div>
               <div>Item</div>
-              <div>Div</div>
-              <div>Div x 3</div>
+              <div>div x 3</div>
             </td>
             <td>
               <div>List</div>
@@ -704,12 +704,12 @@ export default () =>
           <tr>
             <td>
               <div>List</div>
-              <div>Button</div>
+              <div>div</div>
+              <div>button</div>
               <div>Item</div>
               <div>Item</div>
               <div>Item</div>
-              <div>Div</div>
-              <div>Div x 3</div>
+              <div>div x 3</div>
             </td>
             <td>
               <div>List</div>
@@ -754,12 +754,12 @@ export default () =>
           <tr>
             <td>
               <div>List</div>
-              <div>Button</div>
+              <div>div</div>
+              <div>button</div>
               <div>Item</div>
               <div>Item</div>
               <div>Item</div>
-              <div>Div</div>
-              <div>Div x 3</div>
+              <div>div x 3</div>
             </td>
             <td>
               <div>List</div>
@@ -807,12 +807,12 @@ export default () =>
           <tr>
             <td>
               <div>List</div>
-              <div>Button</div>
+              <div>div</div>
+              <div>button</div>
               <div>Item</div>
               <div>Item</div>
               <div>Item</div>
-              <div>Div</div>
-              <div>Div x 3</div>
+              <div>div x 3</div>
             </td>
             <td>
               <div>List</div>
